@@ -1,0 +1,37 @@
+
+
+   .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #010101;
+    color: #fff;
+    padding: 20px;
+}
+
+.row:first-child {
+    font-weight: bold; /* Example styling for the first row */
+    color: rgb(102, 70, 228);
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.row a {
+    color: #fff;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.row a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
